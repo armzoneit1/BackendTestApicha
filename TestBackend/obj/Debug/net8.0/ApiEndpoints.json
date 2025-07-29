@@ -1,0 +1,125 @@
+[
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Post",
+    "RelativePath": "Manage/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TestBackend.Models.Class\u002BAllProducts",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Add"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Delete2",
+    "RelativePath": "Manage/clear",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "Clear"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Update2",
+    "RelativePath": "Manage/decrease",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TestBackend.Models.Class\u002BCertAction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Decrease"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Delete1",
+    "RelativePath": "Manage/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Delete"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Get2",
+    "RelativePath": "Manage/getcert",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetCert"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Get3",
+    "RelativePath": "Manage/getcountitem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetCountItem"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Get1",
+    "RelativePath": "Manage/getproduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetProduct"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Update1",
+    "RelativePath": "Manage/increase",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TestBackend.Models.Class\u002BCertAction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Increase"
+  },
+  {
+    "ContainingType": "TestBackend.Controllers.ManageController",
+    "Method": "Post1",
+    "RelativePath": "Manage/makepayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "makePayment"
+  }
+]
